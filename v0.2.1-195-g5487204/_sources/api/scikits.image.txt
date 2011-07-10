@@ -1,0 +1,16 @@
+.. AUTO-GENERATED FILE -- DO NOT EDIT!
+
+Module: :mod:`scikits.image`
+============================
+.. automodule:: scikits.image
+
+.. currentmodule:: scikits.image
+.. autosummary::
+
+   scikits.image.get_log
+
+get_log
+-------
+
+.. autofunction:: scikits.image.get_log
+

@@ -1,0 +1,33 @@
+.. AUTO-GENERATED FILE -- DO NOT EDIT!
+
+Module: :mod:`backend`
+======================
+Inheritance diagram for ``scikits.image.backend``:
+
+.. inheritance-diagram:: scikits.image.backend 
+   :parts: 3
+
+.. automodule:: scikits.image.backend
+
+.. currentmodule:: scikits.image.backend
+
+:class:`add_backends`
+---------------------
+
+
+.. autoclass:: add_backends
+  :members:
+  :undoc-members:
+  :show-inheritance:
+  :inherited-members:
+
+  .. automethod:: __init__
+.. autosummary::
+
+   scikits.image.backend.use_backend
+
+use_backend
+-----------
+
+.. autofunction:: scikits.image.backend.use_backend
+

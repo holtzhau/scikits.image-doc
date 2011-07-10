@@ -1,0 +1,151 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation from source &mdash; scikits.image v0.3dev docs</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.3dev',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="scikits.image v0.3dev docs" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+    <li><a href=index.html>scikits.image home</a> &raquo;</li>
+    
+        <li><a href="contents.html">scikits.image v0.3dev docs</a> &raquo;</li>
+ 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="installation-from-source">
+<h1>Installation from source<a class="headerlink" href="#installation-from-source" title="Permalink to this headline">¶</a></h1>
+<p>Obtain the source from the git-repository at
+<a class="reference external" href="http://github.com/stefanv/scikits.image">http://github.com/stefanv/scikits.image</a>.</p>
+<p>by running</p>
+<div class="highlight-python"><pre>git clone http://github.com/stefanv/scikits.image.git</pre>
+</div>
+<p>in a terminal (You will need to have git installed on your machine).</p>
+<p>The SciKit can be installed globally using</p>
+<div class="highlight-python"><pre>python setup.py install</pre>
+</div>
+<p>or locally using</p>
+<div class="highlight-python"><pre>python setup.py install --prefix=${HOME}</pre>
+</div>
+<p>If you prefer, you can use it without installing, by simply adding
+this path to your PYTHONPATH variable and compiling extensions
+in-place:</p>
+<div class="highlight-python"><pre>python setup.py build_ext -i</pre>
+</div>
+</div>
+<div class="section" id="build-requirements">
+<h1>Build Requirements<a class="headerlink" href="#build-requirements" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="http://python.org">Python &gt;= 2.5</a></li>
+<li><a class="reference external" href="http://numpy.scipy.org/">Numpy &gt;= 1.4</a></li>
+<li><a class="reference external" href="http://www.cython.org/">Cython &gt;= 0.13</a></li>
+</ul>
+</div>
+<div class="section" id="usage-requirements">
+<h1>Usage Requirements<a class="headerlink" href="#usage-requirements" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="http://www.scipy.org/">Scipy</a></li>
+<li><a class="reference external" href="http://www.pythonware.com/products/pil/">Python Imaging Library (PIL)</a></li>
+</ul>
+</div>
+<div class="section" id="optional-requirements">
+<h1>Optional Requirements<a class="headerlink" href="#optional-requirements" title="Permalink to this headline">¶</a></h1>
+<p>You can use this scikit with the basic requirements listed above, but some
+functionality is only available with the following installed:</p>
+<dl class="docutils">
+<dt><a class="reference external" href="http://opencv.willowgarage.com/wiki/">Open CV</a> (version 2.1).</dt>
+<dd><p class="first">Required for functions in <tt class="docutils literal"><span class="pre">scikits.image.opencv</span></tt>.</p>
+<p class="last">Note that, under Ubuntu, due to problems with Atlas + OpenCV,
+you may have to rebuild your own libcv.</p>
+</dd>
+<dt><a class="reference external" href="http://wiki.python.org/moin/PyQt">PyQt4</a></dt>
+<dd>The <cite>qt</cite> plugin that provides <cite>imshow</cite> and <cite>scivy</cite>.</dd>
+<dt><a class="reference external" href="http://www.pygtk.org/">PyGTK</a></dt>
+<dd>The <cite>gtk</cite> plugin that provides <cite>imshow</cite>.</dd>
+</dl>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="contents.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation from source</a></li>
+<li><a class="reference internal" href="#build-requirements">Build Requirements</a></li>
+<li><a class="reference internal" href="#usage-requirements">Usage Requirements</a></li>
+<li><a class="reference internal" href="#optional-requirements">Optional Requirements</a></li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/install.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+    <li><a href=index.html>scikits.image home</a> &raquo;</li>
+    
+        <li><a href="contents.html">scikits.image v0.3dev docs</a> &raquo;</li>
+ 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2009, SciPy Developers.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.1.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.. AUTO-GENERATED FILE -- DO NOT EDIT!
+
+Module: :mod:`color.colorconv`
+==============================
+.. automodule:: scikits.image.color.colorconv
+
+.. currentmodule:: scikits.image.color.colorconv
+.. autosummary::
+
+   scikits.image.color.colorconv.convert_colorspace
+   scikits.image.color.colorconv.hsv2rgb
+   scikits.image.color.colorconv.rgb2gray
+   scikits.image.color.colorconv.rgb2grey
+   scikits.image.color.colorconv.rgb2hsv
+   scikits.image.color.colorconv.rgb2rgbcie
+   scikits.image.color.colorconv.rgb2xyz
+   scikits.image.color.colorconv.rgbcie2rgb
+   scikits.image.color.colorconv.xyz2rgb
+
+convert_colorspace
+------------------
+
+.. autofunction:: scikits.image.color.colorconv.convert_colorspace
+
+hsv2rgb
+-------
+
+.. autofunction:: scikits.image.color.colorconv.hsv2rgb
+
+rgb2gray
+--------
+
+.. autofunction:: scikits.image.color.colorconv.rgb2gray
+
+rgb2grey
+--------
+
+.. autofunction:: scikits.image.color.colorconv.rgb2grey
+
+rgb2hsv
+-------
+
+.. autofunction:: scikits.image.color.colorconv.rgb2hsv
+
+rgb2rgbcie
+----------
+
+.. autofunction:: scikits.image.color.colorconv.rgb2rgbcie
+
+rgb2xyz
+-------
+
+.. autofunction:: scikits.image.color.colorconv.rgb2xyz
+
+rgbcie2rgb
+----------
+
+.. autofunction:: scikits.image.color.colorconv.rgbcie2rgb
+
+xyz2rgb
+-------
+
+.. autofunction:: scikits.image.color.colorconv.xyz2rgb
+
